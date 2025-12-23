@@ -6,7 +6,7 @@ Welcome to the OctoAcme Project Management Docs! This directory contains compreh
 
 OctoAcme employs a comprehensive, iterative approach to project management designed to maximize customer value, clarity, and team efficiency. Projects start with clear business goals, stakeholder alignment, and a lightweight planning phase where metrics and risks are defined in a Project One-pager. Stakeholder engagement is prioritized early, ensuring readiness before detailed planning. Once approved, work is broken down into shippable increments via backlog items, each with defined criteria and effort. Planning covers dependencies, risks, milestones, and release strategy, with checklists for kickoff, prioritization, and test planning.
 
-Core personas include Project Managers, Product Managers, Developers, QA/Testers, and Stakeholders. PMs coordinate delivery and communications; PdMs own product vision and outcomes; Developers build features; QA/Testers validate releases; Stakeholders provide strategic input and approvals—ensuring clear ownership across the project.
+Core personas include Project Managers, Product Managers, Scrum Masters, Developers, UX Designers, DevOps Engineers, QA/Testers, and Stakeholders. PMs coordinate delivery and communications; PdMs own product vision and outcomes; Scrum Masters facilitate agile practices and remove blockers; Developers build features; UX Designers research and design user experiences; DevOps Engineers manage infrastructure and deployment automation; QA/Testers validate releases; Stakeholders provide strategic input and approvals—ensuring clear ownership and collaboration across the project.
 
 OctoAcme's processes emphasize effective communication, with daily standups, weekly syncs, and monthly stakeholder updates. Project boards visualize workflow (Backlog, In Progress, QA, Done), and risk registers and communication plans are maintained. Incidents and escalations follow clear, multi-level protocols.
 
@@ -38,7 +38,20 @@ Standardized release processes to reduce risk and improve observability. Covers 
 Capture learnings and convert them into actionable improvements. Learn how to run effective retrospectives, track action items, and build a culture of continuous improvement.
 
 ### [Roles & Personas](octoacme-roles-and-personas.md)
-Detailed descriptions of key roles including Developers, Product Managers, Project Managers, QA/Testers, and Stakeholders. Understand responsibilities, goals, and communication patterns for each role.
+Detailed descriptions of key roles including Developers, Product Managers, Project Managers, Scrum Masters, UX Designers, DevOps Engineers, QA/Testers, and Stakeholders. Understand responsibilities, goals, and communication patterns for each role.
+
+## Role-Specific Checklists
+
+These checklists provide actionable guidance for specific roles to ensure effective collaboration and delivery:
+
+### [Scrum Master Checklist](octoacme-scrum-master-checklist.md)
+Comprehensive daily, sprint, and continuous improvement responsibilities for Scrum Masters. Covers facilitation of ceremonies, blocker removal, team coaching, and cross-role collaboration.
+
+### [UX Handoff Checklist](octoacme-ux-handoff-checklist.md)
+Complete guide for UX Designers to ensure smooth handoff to developers. Includes design artifacts, asset preparation, documentation requirements, and post-handoff support.
+
+### [DevOps Release Readiness Checklist](octoacme-devops-release-readiness-checklist.md)
+End-to-end checklist for DevOps Engineers to prepare for safe, reliable production releases. Covers infrastructure, CI/CD, security, monitoring, deployment, and rollback procedures.
 
 ## Getting Started
 
@@ -58,9 +71,10 @@ If you're new to OctoAcme project management:
 
 - **For new projects**: Follow the initiation and planning guides to set up your project structure
 - **During execution**: Reference the execution, tracking, and risk management guides regularly
-- **Before releases**: Review the release and deployment checklist
+- **Before releases**: Review the release and deployment checklist and [DevOps Release Readiness Checklist](octoacme-devops-release-readiness-checklist.md)
 - **After milestones**: Use the retrospective guide to capture learnings
 - **For onboarding**: Share the overview and roles documents with new team members
+- **For role-specific guidance**: Use the [Scrum Master](octoacme-scrum-master-checklist.md), [UX Handoff](octoacme-ux-handoff-checklist.md), or [DevOps Release Readiness](octoacme-devops-release-readiness-checklist.md) checklists
 - **In project repos**: Consider adding relevant docs to `.copilot/` for Copilot Spaces context
 
 ## Questions or Feedback?
